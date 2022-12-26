@@ -1,8 +1,6 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import instalNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 import newsApp from '../assets/portfolio/newsApp.jpg'
 
