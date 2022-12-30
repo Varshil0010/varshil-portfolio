@@ -16,56 +16,56 @@ const Experience = () => {
             id: 1,
             src: html,
             title: 'HTML',
-            style: 'shadow-orange-500'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500'
         },
 
         {
             id: 2,
             src: css,
             title: 'CSS',
-            style: 'shadow-blue-500'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500'
         },
 
         {
             id: 3,
             src: javascript,
             title: 'Javascript',
-            style: 'shadow-yellow-500'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-yellow-500'
         },
 
         {
             id: 4,
             src: reactImage,
             title: 'React',
-            style: 'shadow-blue-600'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-600'
         },
 
         {
             id: 5,
             src: tailwind,
             title: 'Tailwind',
-            style: 'shadow-sky-400'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-400'
         },
 
         {
             id: 6,
             src: monogame,
             title: 'Monogame',
-            style: 'shadow-orange-500'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500'
         },
 
         {
             id: 7,
             src: sql,
             title: 'Sql',
-            style: 'shadow-white'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-white'
         },
 
         {
             id: 8,
             src: github,
             title: 'Github',
-            style: 'shadow-gray-400'
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-gray-400'
         },
     ]
 
@@ -80,7 +80,7 @@ const Experience = () => {
 
                     {
                         techs.map(({ id, src, title, style }) => (
-                            <div key={id} className={'shadow-md hover:scale-105 duration-500 py-2 rounded-lg' + ' ' + style}>
+                            <div key={id} className={style}>
                                 <img src={src} alt='' className='w-20 mx-auto' />
                                 <p className='mt-4'>{title}</p>
                             </div>
