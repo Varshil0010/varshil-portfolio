@@ -23,6 +23,7 @@ const Home = () => {
                             <div className="i-title-item">WebAPI</div>
                             <div className="i-title-item">Web Service</div>
                             <div className="i-title-item">AngularJS/ReactJS</div>
+                            <div className="i-title-item">Azure</div>
                         </div>
                     </div>
                     <p className='text-gray-500 py-4 max-w-md'>
