@@ -1,5 +1,6 @@
 import React from 'react'
-import myImage from '../assets/myImage.jpg';
+import "./Home.css"
+import myImage from '../../assets/me.jpg';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
@@ -8,11 +9,29 @@ const Home = () => {
         <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+
+                    {/* <h2 className='text-4xl sm:text-3xl text-white'>
+                        Hello, My name is Varshil Patel
+                    </h2> <br></br> */}
+                    <h2 className='text-4xl sm:text-6xl text-white'>
                         I'm a Full Stack Developer
                     </h2>
+                    <div className="i-title">
+                        <div className="i-title-wrapper">
+                            <div className="i-title-item">ASP.NET</div>
+                            <div className="i-title-item">MySQL</div>
+                            <div className="i-title-item">WebAPI</div>
+                            <div className="i-title-item">Web Service</div>
+                            <div className="i-title-item">AngularJS/ReactJS</div>
+                        </div>
+                    </div>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed esse dicta rem in possimus, aspernatur quis numquam veniam, enim fugit at molestiae nemo eius. Illum dolorum quae corporis explicabo a.
+                        Enthusiastic and results-driven Software Developer eager to
+                        contribute expertise in software development to a dynamic and
+                        fast-growing organization. Proficient in ASP.NET, C#, MVC, SQL,
+                        Entity Framework, and adept at testing, deployment, and support
+                        using agile methodologies. Possesses a solid foundation in computer
+                        science coupled with excellent communication skills.
                     </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
