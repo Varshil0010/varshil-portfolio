@@ -7,37 +7,38 @@ const About = () => {
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About Me</p>
                 </div>
-                <p className='text-xl mt-20'>
+                <p>Full Stack .NET Developer</p>
+                <p className='text-xl mt-10 mb-3'>
                     • Advanced experience in developing Web and Client/Server Applications
                       based on Microsoft .NET Technologies and expertise in implementing
                       N-Tier Architecture and using WordPress.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Expert in designing and developing web and Windows-based
                       applications using MVC, ASP.NET, C#, .NET Core, ADO.NET, Blazer,
                       Entity Framework, Enterprise Library, LINQ, REST APIs, SOAP, Web
                       Services, AJAX, IIS, XML, JSON, Angular Framework, and Azure Cloud.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Experienced in end-to-end development of web and windows
                     applications.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Experience designing web pages with JavaScript, CSS, HTML 5, CSS3,
                     and jQuery, Angular and ReactJS.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Skilled at rapidly prototyping and building robust solutions under
                     tight timelines.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Approaches all tasks in an ethical and professional manner.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Seeking a role that values learning, quality, and contributing
                     technical insights for product excellence.
                 </p>
-                <p className='text-xl'>
+                <p className='text-xl mb-3'>
                     • Agile development experience including daily standups, sprint,
                     retrospectives.
                 </p>
