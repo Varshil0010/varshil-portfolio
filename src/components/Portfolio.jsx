@@ -29,7 +29,19 @@ const Portfolio = () => {
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                    <p className='py-6'>Check out some of my work here</p>
+                    
+
+                    <p className="py-6">
+          Here is the project created by me. You can check out more of my work
+          on github profile a whole lot more awaits inside.{" "}
+          <a
+            href="https://github.com/Varshil0010"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://github.com/Varshil0010
+          </a>
+        </p>
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
