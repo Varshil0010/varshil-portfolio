@@ -4,9 +4,10 @@ import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png';
 import github from '../assets/github.png';
-import tailwind from '../assets/tailwind.png';
-import monogame from '../assets/monogame.png';
+import node from '../assets/node.png';
+import c from '../assets/net.png';
 import sql from '../assets/sql.jpg';
+import angular from '../assets/angular.png'
 
 
 const Experience = () => {
@@ -14,55 +15,62 @@ const Experience = () => {
     const techs = [
         {
             id: 1,
-            src: html,
-            title: 'HTML',
-            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500'
+            src: c,
+            title: 'ASP.NET',
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-500'
         },
 
         {
             id: 2,
-            src: css,
-            title: 'CSS',
-            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500'
+            src: angular,
+            title: 'Angular',
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-red-400'
         },
 
         {
             id: 3,
-            src: javascript,
-            title: 'Javascript',
-            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-yellow-500'
-        },
-
-        {
-            id: 4,
             src: reactImage,
             title: 'React',
             style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-600'
         },
 
         {
-            id: 5,
-            src: tailwind,
-            title: 'Tailwind',
-            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-400'
-        },
-
-        {
-            id: 6,
-            src: monogame,
-            title: 'Monogame',
-            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500'
-        },
-
-        {
-            id: 7,
+            id: 4,
             src: sql,
             title: 'Sql',
             style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-white'
         },
 
         {
+            id: 5,
+            src: html,
+            title: 'HTML',
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500'
+        },
+
+        {
+            id: 6,
+            src: css,
+            title: 'CSS',
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500'
+        },
+
+        {
+            id: 7,
+            src: javascript,
+            title: 'Javascript',
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-yellow-500'
+        },
+
+        {
             id: 8,
+            src: node,
+            title: 'NodeJS',
+            style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-green-400'
+        },
+
+        {
+            id: 9,
             src: github,
             title: 'Github',
             style: 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-gray-400'

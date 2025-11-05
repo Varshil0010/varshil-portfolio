@@ -1,8 +1,8 @@
 import React from 'react'
-import instalNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+// import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import Realestate from '../assets/portfolio/Realestate.jpg'
 import newsApp from '../assets/portfolio/newsApp.jpg'
+import {AiFillPlayCircle } from 'react-icons/ai';
 
 
 const Portfolio = () => {
@@ -10,22 +10,16 @@ const Portfolio = () => {
     const Portfolios = [
         {
             id: 1,
-            src: newsApp
+            src: newsApp,
+            title: "NewsApp",
+            links: 'https://github.com/Varshil0010/FunctionBasedNewsApp'
         },
 
         {
             id: 2,
-            src: instalNode
-        },
-
-        {
-            id: 3,
-            src: navbar
-        },
-
-        {
-            id: 4,
-            src: reactWeather
+            src: Realestate,
+            title: "Realestate",
+            links: 'https://github.com/Varshil0010/Realestate'
         },
 
     ]
@@ -41,12 +35,13 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                     {
-                        Portfolios.map(({ id, src }) => (
+                        Portfolios.map(({ id, src, links, title }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
+                                {/* <p className='flex items-center justify-center'>{title}</p> */}
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                    <button className='w-1 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={links}><AiFillPlayCircle/></a></button>
+                                    {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button> */}
                                 </div>
                             </div>
                         ))

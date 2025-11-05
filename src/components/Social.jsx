@@ -1,21 +1,21 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Social = () => {
 
     const links = [
-        {
-            id: 1,
-            child: (
-                <>
-                    LinkedIn <FaLinkedin size={30} />
-                </>
-            ),
-            href: 'https://linkedin.com',
-            style: 'rounded-tr-md'
-        },
+        // {
+        //     id: 1,
+        //     child: (
+        //         <>
+        //             LinkedIn <FaLinkedin size={30} />
+        //         </>
+        //     ),
+        //     href: 'https://linkedin.com',
+        //     style: 'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 rounded-tr-md'
+        // },
 
         {
             id: 2,
@@ -24,7 +24,8 @@ const Social = () => {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:foo@gmail.com',
+            href: 'mailto:vpatel20127@gmail.com',
+            style: 'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'
         },
 
         {
@@ -35,6 +36,7 @@ const Social = () => {
                 </>
             ),
             href: 'https://github.com/Varshil0010',
+            style: 'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'
         },
 
         {
@@ -44,8 +46,8 @@ const Social = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/resume.pdf',
-            style: 'rounded-br-md',
+            href: '/Varshil Patel.pdf',
+            style: 'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 rounded-br-md',
             download: true,
         },
     ]
@@ -55,7 +57,7 @@ const Social = () => {
             <ul>
 
                 {links.map(({ id, child, href, style, download }) => (
-                    <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'}>
+                    <li key={id} className={style}>
                         <a href={href} className='flex justify-between items-center w-full text-white' download={download} target='_blank' rel="noreferrer">
                             {child}
                         </a>
